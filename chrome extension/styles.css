@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+body{
+  border-radius: 20px;
+  background: #41295a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Inclusive Sans', sans-serif;
+  color: white;
+  min-width: 300px;
+  min-height: 500px;
+}
+
+
+
+.resbox{
+  margin-top: 50px;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+.safebox{
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  font-size: 12px;
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-weight:bold;
+}
+
+.unsafebox{
+  background: #FF416C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  font-size: 12px;
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-weight:bold;
+}
+
+.blowbox {
+  margin-top: 25px;
+  width: 275px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  background-color: rgba(255, 255, 255, 0.5); /* Use rgba for a translucent white background */
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #333; /* Text color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a blurred shadow */
+}
+
+/* CSS */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Inclusive Sans', sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
