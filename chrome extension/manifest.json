@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Firewall Demo",
+  "version": "1.0",
+  "description": "A simple firewall functionality",
+  "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs",
+        "notifications",
+        "http://*/",
+        "https://*/"
+        ] ,
+  "action": {
+    "default_popup": "popup.html",
+    "widht":300,
+    "height":400,
+    "default_icon": "images/icon.png"
+  }
+}
